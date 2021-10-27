@@ -1,6 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap');
 
+/* CSS Variables */
+:root{
+    --primary-color: #2ACAEA;
+    --white: #FFFFFF;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* container */
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 700px;
+    margin: auto;
+}
+
+/* links */
+.link-box{
+    margin-bottom: 2rem;
+}
+
+.links{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.primary-links{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    
+}
+
+.secondary-links{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+
+/* list */
+.list-non-bullet{
+    list-style: none;
+
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem 1.5rem;
+}
+
+/* nav */
+.navigation{
+    background-color: var(--primary-color);
+    border-radius: 0.75rem;
+    padding: 1rem 2rem;
+}
+
+.nav-brand{
+    color: var(--white);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.navigation .nav-pill{
+    text-align: right;
+}
+
+.navigation .links{
+    color: var(--white);
+}
