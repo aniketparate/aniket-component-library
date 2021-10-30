@@ -4,6 +4,7 @@
 :root{
     --primary-color: #2ACAEA;
     --white: #FFFFFF;
+    --off-white:#E5E7EB;
 }
 
 body{
@@ -74,4 +75,45 @@ body{
 
 .navigation .links{
     color: var(--white);
+}
+
+/* Section */
+.section h1{
+    text-align: center;
+}
+
+.section p{
+    text-align: justify;
+}
+
+.section-ow{
+    padding: 1rem;
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.footer-head{
+    text-align: center;
+    color: var(--white);
+    font-weight: bold;
+    
+}
+
+.footer .links{
+    color: var(--white);
+    text-align: center;
+}
+
+.footer .social{
+    text-align: center;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
