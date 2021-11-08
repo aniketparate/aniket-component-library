@@ -77,6 +77,31 @@ body{
     color: var(--white);
 }
 
+.navigation .links-active{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 1rem;
+}
+
+.hero-img{
+    max-width: 70%;
+    max-height: 350px;
+    display:block;
+    margin:auto;
+}   
+
+.hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.hero .hero-colored{
+    color: var(--primary-color);
+}
+
 /* Section */
 .section h1{
     text-align: center;
